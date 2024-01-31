@@ -1,7 +1,30 @@
 extends ./layout/index
 block contenido
-    p Nosotros
-    //- Usar variables
-    //- p= viajes
-    img(src="img/cupon.jpg")
-    p #{viajes}
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="/img/nosotros.jpg", alt="Imagen de nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam illo minus, quam ipsum sint, neque deserunt eum earum delectus iusto recusandae dolorem atque optio, veniam minima labore debitis aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, itaque voluptatum earum quam illum sequi veritatis harum nulla quod sed! Velit, quod? Sed necessitatibus architecto omnis voluptates aliquid maxime temporibus!
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam illo minus, quam ipsum sint, neque deserunt eum earum delectus iusto recusandae dolorem atque optio, veniam minima labore debitis aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, itaque voluptatum earum quam illum sequi veritatis harum nulla quod sed! Velit, quod? Sed necessitatibus architecto omnis voluptates aliquid maxime temporibus!
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam illo minus, quam ipsum sint, neque deserunt eum earum delectus iusto recusandae dolorem atque optio, veniam minima labore debitis aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, itaque voluptatum earum quam illum sequi veritatis harum nulla quod sed! Velit, quod? Sed necessitatibus architecto omnis voluptates aliquid maxime temporibus!
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="/img/icono_seguridad.svg", alt="Icono seguridad", class="mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, rem dolores nisi sint molestiae id eos vitae quo accusamus placeat consequatur vero aut maxime earum voluptas veritatis doloremque, itaque magni!
+
+                .col-md-4
+                    img(src="/img/icono_destinos.svg", alt="Icono destinos", class="mb-4")
+                    h2.mb-4 Grandes destinos
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, rem dolores nisi sint molestiae id eos vitae quo accusamus placeat consequatur vero aut maxime earum voluptas veritatis doloremque, itaque magni!
+
+                .col-md-4
+                    img(src="/img/icono_precios.svg", alt="Icono precios", class="mb-4")
+                    h2.mb-4 Mejores precios
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, rem dolores nisi sint molestiae id eos vitae quo accusamus placeat consequatur vero aut maxime earum voluptas veritatis doloremque, itaque magni!
+            
