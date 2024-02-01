@@ -8,11 +8,11 @@ El proyecto fue desarrollado principalmente utilizando las siguientes tecnologí
 
 - Node.js
 - Express
-- Pug (motor de plantillas)
-- Sequelize (ORM para interactuar con la base de datos)
+- Pug (Template Engine)
+- Sequelize (ORM)
 - MySQL (base de datos)
-- Dotenv (para la gestión de variables de entorno)
+- Dotenv
 
 ## Despliegue
 
-El proyecto está desplegado y disponible en [https://agenciaviajesnode-3wr5.onrender.com/](https://agenciaviajesnode-3wr5.onrender.com/). ¡Siéntete libre de explorarlo!
+El proyecto está desplegado y disponible en [https://agenciaviajesnode-3wr5.onrender.com/](https://agenciaviajesnode-3wr5.onrender.com/).
