@@ -4,6 +4,7 @@ import { Viaje } from '../models/Viaje.js';
 const paginaInicio = (req, res) => {  //req = lo que enviamos - res= lo que express nos responde
     res.render('inicio', {
         pagina: 'Inicio',
+        clase: 'home'
     });
 }
 
