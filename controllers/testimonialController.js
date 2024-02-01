@@ -1,7 +1,7 @@
 const guardarTestimonial = (req, res) => {
 
     // Validar
-    const { nombre, email, mensaje } = req.body;
+    const { nombre, correo, mensaje } = req.body;
 
     const errores = [];
 
@@ -17,7 +17,17 @@ const guardarTestimonial = (req, res) => {
         errores.push({ mensaje: 'El mensaje está vacío' });
     }
 
-    console.log(req.body);
+    if (errores.length > 0) {
+        // Mostrar la vista con errores
+        res.render('testimoniales', {
+            pagina: 'Testimoniales',
+            errores,
+            nombre,
+            correo,
+            mensaje
+        })
+    }
+
 }
 
 export {
